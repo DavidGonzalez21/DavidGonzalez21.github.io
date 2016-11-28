@@ -1,0 +1,97 @@
+.header{
+	padding-bottom: 48%;
+	background: url('./images/aurora-boreal-roja.jpg') no-repeat center;
+	background-attachment: fixed;
+	opacity: 0.8;
+}
+.header h1{
+	color: white;
+	opacity: 1 !important;
+	text-align: center;
+}
+.header .top{
+	position: absolute;
+    top: 10%;
+    left: 45%;
+    margin-top: -50px;
+    
+
+}
+.header .centered{
+	position: absolute;
+    top: 31%;
+    left: 0%;
+    margin-top: 0px;
+    vertical-align: middle !important;
+    width: 100%;
+    
+
+}
+.header .Bottom{
+	position: absolute;
+    top: 75%;
+    left: 45%;
+    margin-top: -50px;
+   
+
+}
+.big{
+	color: #fff;
+	mix-blend-mode: hard-light;
+	
+    font-size: 7em;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+.middle{
+	mix-blend-mode: soft-light;
+	color: #fff;
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+.layer:nth-child(1) {
+  opacity: 0.15;
+}
+.layer:nth-child(1) button {
+  -webkit-transform: rotate(150deg);
+}
+
+.layer:nth-child(2) {
+  opacity: 0.30;
+}
+.layer:nth-child(2) button {
+  -webkit-transform: rotate(120deg);
+}
+
+.layer:nth-child(3) {
+  opacity: 0.45;
+}
+.layer:nth-child(3) button {
+  -webkit-transform: rotate(90deg);
+}
+
+.layer:nth-child(4) {
+  opacity: 0.60;
+}
+.layer:nth-child(4) button {
+  -webkit-transform: rotate(60deg);
+}
+
+.layer:nth-child(5) {
+  opacity: 0.75;
+}
+.layer:nth-child(5) button {
+  -webkit-transform: rotate(30deg);
+}
+
+.layer:nth-child(6) {
+  opacity: 0.90;
+}
+.layer:nth-child(6) button {
+}
+.scene {
+  padding: 0;
+  margin: 0;
+  
+}
