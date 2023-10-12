@@ -24,6 +24,30 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<h3>hola</h3>
 	</div>
+
+	<h1>Random Number Generator</h1>
+    <p>Click the button to generate a random number between 1 and 100:</p>
+    <button id="generateButton">Generate Random Number</button>
+    <p id="result"></p>
+
+    <script>
+        // Function to generate a random number between 1 and 100
+        function generateRandomNumber() {
+            const min = 1;
+            const max = 100;
+            const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+            return randomNumber;
+        }
+
+        // Function to handle button click
+        function onGenerateButtonClick() {
+            const randomNumber = generateRandomNumber();
+            document.getElementById('result').textContent = `Random Number: ${randomNumber}`;
+        }
+
+        // Add a click event listener to the button
+        document.getElementById('generateButton').addEventListener('click', onGenerateButtonClick);
+    </script>
 </body>
 </html>
 
